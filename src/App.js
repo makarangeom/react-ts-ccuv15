@@ -1,10 +1,10 @@
 import React from 'react';
-import todolist from '../container/todolist';
+import TodoListWrapper from './components/containers/todo-list-wrapper/TodoListWrapper';
 
 export default function App() {
   return (
     <>
-      <todolist />
+      <TodoListWrapper />
     </>
   );
 }
